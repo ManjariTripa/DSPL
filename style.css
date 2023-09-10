@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+}
+
+.chatbot {
+    background-color: beige;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    width: 420px;
+    max-width: 90%;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+h2{
+    text-align: center;
+    padding: 17px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#answer
+{
+    text-align: center;
+    background-color:  rgb(55, 20, 20);
+    font-size: 15px;
+    color:#fff;
+    padding: 17px;
+    text-align: center;  
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+ 
+
+.chatbox-heading {
+    background-color:  rgb(55, 20, 20);
+    color: #fff;
+    padding: 17px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+.input{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(55, 20, 20));
+  
+}
+
+#userBox {
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
